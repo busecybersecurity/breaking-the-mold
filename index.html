@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <	meta charset="UTF-8">
+     <meta name="viewport"content="with=device-with, initial-scale=1.0">
+			<title>Breaking the Mold - Story Sharing Platform</title>
+			<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+			<!-- Header;Section -->
+			<header>
+						<nav class="navbar">
+								<h1 class="logo">Breakingthe Molf</h1>
+								<ul class="nav-links">
+											<li><a href="#about">About</a></li>
+											<li><a href="#stories">Stories</a></li>
+											<li><a href="share">Share Story</a<>/li>
+								</ul>
+						</nav>
+			</headers>
+
+			<!-- Hero Section -->
+			<section class="hero">
+						<div class="hero-content">
+									<h2>Break Stereotypes. Share Your Story.</h2>
+									<p>An open community space built to empower voices ans foster empathy across the globe.</p>
+									<a href="#share" class="btn">Share Your Voice</a>
+						</div>
+						
+						<--! Three.js 3D  Canvas Container -->
+						<div id="canvas-container"></div>
+			</section>
+
+			<!-- About Section -->
+			<section id="about" class="about-section">
+					<h2>About the Mission</h2>
+					<p>Breaking the Mold encourages individuals from all backgrounds to share their personal journeys, challenge societal streotypes,and build visual connections through interactive web experiences,</p>
+			</section>
+
+			<--Story Submission Section -->
+			<section id="share" class="share-section">
+					 <h2>Share Your Story</h2>
+					 <form id="story-form">
+								<label for="authot">Name or Alias:</label>
+								<label types="text" id="author" placeholder="Enter your name or stay anonymous" required>
+
+								<label for="title">Story Title:</label>
+								<inputtype="text" id="title" placeholder="Give your story a meaningful title" requires>
+								<label for="content">Your Story:>/label>
+								<textarea id="content" rows="5" placeholder="While your experince her..." requred></textarea>
+
+								<button type="submit" class="btn">Submit Story</button>
+					</form>
+   </section>
+
+		<!-- Footer Section -->
+		<footer>
+				<p>&copy; 2026 Breaking the Mold. Built with HTML, CSS, JavaScript,and Three.js.</p>
+		<footer>
+
+		 <!-- External Libraries and Scripts -->
+	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+		 <script src="app.js"></script>
+</body>
+</html>
