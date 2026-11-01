@@ -5,7 +5,7 @@ An open-source, web-based platform built to empower individuals, foster empathy,
 ---
 
 ## 📌 About the Project 
-** Breaking the Mold** is an interactive web platform designed to create a safe space where individuals can share their experiences, challenge societal stereotypes, and build strong community connections. 
+**Breaking the Mold** is an interactive web platform designed to create a safe space where individuals can share their experiences, challenge societal stereotypes, and build strong community connections. 
 
 By leveraging modern web technologies and 3D visual experiences, the project aims to passive reading into an engaging and empathetic user journey. 
 
