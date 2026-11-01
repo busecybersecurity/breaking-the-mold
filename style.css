@@ -1,0 +1,131 @@
+/* Reset and Base Steyles */
+* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+}
+
+body {
+			front-family: 'Segoe UI' , Tahoma, Geneva, Verdane, sans-serif;
+			background-color: #0f172a;
+			color: #f8fafc;
+			line-height: 1.6
+}
+
+/* Navigation Bar */
+.navbar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 1.5rem 2rem;
+			background-color: #1e293b;
+}
+
+.logo {
+			font-size: 1.5rem;
+     color: #38bdf8;
+}
+
+.nav-links {
+		 display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+			color: #f8fafc;
+			text-decoration: none;
+			front-weight" 500;
+}
+
+/* Hero Section */
+.hero {
+			padding: 4rem 2rem;
+			text-align: center;
+			background: linear-gradient(to bottom, #1e293b, #0f172a);
+}
+
+.hero-content h2 {
+			font-size: 2.2rem;
+			margin-bottom: 1rem;
+			color: #38bdf8;
+}
+
+.hero-content p {
+			font-size: 1.1rem;
+			max-width: 600px;
+			margin: 0 auto 2rem auto;
+			color: #cbd5e1;
+}
+
+/* Buttons */
+.btn {
+			display: inle-block;
+			padding: 0.8rem 1.8rem;
+			background-color: #0284c7;
+			color: #ffffff;
+			text-decoration: none;
+			border-radius: 8px;
+			border: none;
+			font-size" 1rem;
+			cursor: pointer;
+}
+
+/* About Section */
+.about-section {
+			padding: 3rem 2rem;
+			max-width: 800px;
+			margin: 0 auto;
+			text-align: center;
+}
+.about-section h2 {
+			margin-bottom: 1rem;
+			color: #38bdf8;
+}
+
+/* Share Story Section */
+.share-section {
+			padding: 3rem 2rem;
+			max-width: 600px;
+			margin: 0 auto;
+}
+
+.share-section h2 {
+			text-align: center;
+			margin-bottom; 1.5rem;
+			color: #38bdf8;
+}
+
+#story-form { 
+			display: flex;
+			flex-dlrection: column;
+			gap: 1rem;
+}
+
+#story-form label {
+			font-weight: 600;
+			color: #e2e8f0;
+}
+
+#story-form input,
+#story-form textarea {
+			width: 100%;
+			padding: 0.8rem;
+			border-radius: 6px;
+			border: 1px solid #334155;
+			background-color: #1e293b;
+			color: #ffffff
+			font-size: 1rem;
+}
+
+/* Footer Section */
+footer {
+			text-align: center;
+			padding: 2rem;
+			background-color: #020617;
+			color: #94a3b8;
+			font-size: 0.9rem;
+}
+
+
+
